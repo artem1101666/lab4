@@ -94,4 +94,4 @@ if __name__ == "__main__":
         .replace("file://", "")
         + '/model'
     )
-    print(path2model)
+print(f"MODEL_PATH={path2model}")
